@@ -1,0 +1,84 @@
+body
+{
+    background-color: black;
+}
+.chevron:hover i
+{
+    color: white;
+}
+.signup
+{
+    color: #a9aeb3;
+}
+.signup:hover
+{
+    color: white;
+    font-weight: bold;
+}
+.sp-card:hover
+{
+    background-color: #1f1f1f;
+    z-index: 2;
+    border-radius: 5px;
+}
+.hidden-icon i
+{
+    color: #101010;
+    transition: 0.5s ease;
+    font-size: 45px;
+}
+.sp-card:hover .hidden-icon i
+{
+    color:#31da6e;
+    transition: 0.5s ease;
+    margin-top: -50px;
+}
+.hidden-icon2 i
+{
+    font-size: 45px;
+    border-radius: 25px;
+    transition: 0.5s ease;
+    margin-top: 100px;
+    color: transparent;
+}
+.sp-card:hover .hidden-icon2 i
+{
+    color:#31da6e;
+    background-color: black;
+}
+i:hover
+{
+    color: #32e272;
+    transform: scale(1.1);
+}
+.fw-normal
+{
+    color: #a9aeb3;
+    margin-top: -5px;
+}
+.scroller
+{
+    height: 200px;
+}
+.scroller::-webkit-scrollbar
+{
+    width: 0;
+}
+.scroller:hover::-webkit-scrollbar
+{
+    width: 8px;
+}
+.scroller:hover::-webkit-scrollbar-thumb
+{
+   background-color: #a9aeb3;
+   border-radius: 10px;
+}
+.rightscroll::-webkit-scrollbar
+{
+    width: 8px;
+}
+.rightscroll::-webkit-scrollbar-thumb
+{
+    background-color: #a9aeb3;
+   border-radius: 10px;
+}
